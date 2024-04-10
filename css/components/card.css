@@ -1,0 +1,38 @@
+/* A good challenge is to try and make this card responsive! */
+.card {
+  width: 35vw;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F7F7F7;
+  border-radius: 16px;
+  margin: 10vh 2vw;
+  text-align: center;
+  color: black;
+  padding-top: 1vh;
+
+}
+
+.list {
+  padding-left: 0;
+}
+.card .list li {
+  list-style: none;
+  line-height: 1.5;
+  padding-bottom: 12px;
+  font-weight: 200;
+  /* The following is an example of compound selectors using CSS Nesting from CSS4 
+    But this may not be supported by all browsers https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting */
+  & .green {
+    color: rgb(93, 234, 93);
+  }
+}
+
+.active {
+  position: relative;
+  background-color: #2361FF;
+  color: white;
+  box-shadow: 19px 3px 36px rgba(0,0,0,0.35);
+  top: -16px;
+}

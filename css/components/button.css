@@ -1,0 +1,14 @@
+.btn {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 24px;
+  border-radius: 16px;
+  padding: 16px 24px;
+}
+
+.inactive {
+  color: white;
+  background-color: #2361FF;
+}
